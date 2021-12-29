@@ -10,6 +10,6 @@ CREATE TABLE `sap_maintenance_item_call_objects_data`
   `SchedulingStatus`                  varchar(1) DEFAULT NULL,
   `PlannedStartDate`                  varchar(80) DEFAULT NULL,
     PRIMARY KEY (`MaintenancePlan`, `MaintenanceItem`, `MaintenancePlanCallNumber`),
-    CONSTRAINT `MaintenanceItemCallObjectsData_fk` FOREIGN KEY (`MaintenancePlan`, `MaintenanceItem`) REFERENCES `sap_maintenance_item_item_data` (`MaintenancePlan`, `MaintenanceItem`)
+    CONSTRAINT `SAPMaintenanceItemCallObjectsData_fk` FOREIGN KEY (`MaintenancePlan`, `MaintenanceItem`) REFERENCES `sap_maintenance_item_item_data` (`MaintenancePlan`, `MaintenanceItem`)
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4;
