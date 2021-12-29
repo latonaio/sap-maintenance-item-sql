@@ -13,7 +13,7 @@ https://api.sap.com/api/OP_API_MAINTENANCEITEM_0001/overview
 
 sap-maintenance-item-sql には、sqlの設定ファイルとして、以下のファイルが含まれています。  
 
-* sap-maintenance-item-sql-item-data.sql（SAP 保全計画明細 - ヘッダデータ）  
+* sap-maintenance-item-sql-item-data.sql（SAP 保全計画明細 - 明細データ）  
 * sap-maintenance-item-sql-call-objects.sql（SAP 保全計画明細 - コール対象データ）  
 
 ## MySQLのセットアップ / Kubernetesの設定 / SQLテーブルの作成方法  
