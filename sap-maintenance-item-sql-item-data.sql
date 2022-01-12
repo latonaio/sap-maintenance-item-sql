@@ -7,7 +7,7 @@ CREATE TABLE `sap_maintenance_item_item_data`
   `MaintenancePlanCategory`          varchar(2) DEFAULT NULL,
   `MaintenancePlanCallObject`        varchar(1) DEFAULT NULL,
   `MaintenancePlanItemPosition`      varchar(4) DEFAULT NULL,
-  `MaintenanceItemObjectList`        int(64) DEFAULT NULL,
+  `MaintenanceItemObjectList`        varchar(20) DEFAULT NULL,
   `FunctionalLocationLabelName`      varchar(40) DEFAULT NULL,
   `Equipment`                        varchar(18) DEFAULT NULL,
   `Assembly`                         varchar(40) DEFAULT NULL,
